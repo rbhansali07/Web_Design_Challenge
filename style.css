@@ -1,9 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 150px;
+  background-color: grey;
+  color: black
+}
+
+#text {
+  margin: 10px;
+  padding-left: 20px;
+  border: 10px;
+  color: black;
+}
+
 .box {
   position: relative;	
   height: 400px;
   padding: 20px;
-  color: #fff;
-  background: skyblue;
+  
+  background: lightgrey;
 }
 
 .margin-top-80 {
@@ -13,16 +31,65 @@
   height: 500px;
   padding: 20px;
   color: #fff;
-  background: skyblue;
+  background: lightgrey;
 }
 .box2 {
   height: 200px;
   padding: 20px;
-  color: #fff;
-  background: skyblue;
+  color: black;
+  background: lightgrey;
+}
+.box3 {
+  position: relative;
+  height: 500px;
+  padding: 20px;
+  color: #fff;;
+  background: lightgrey;
 }
 .top-left {
   position: absolute;
   top: -2px;
   left: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color:lightgrey;
+  }
+}
+#main_logo {
+  height: 60px;
+  width: 120px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: 70px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background: aqua;
+  
+}
+#other_link  {
+  float: right;
+  margin-right: 250px;
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  
+}
+.comparison-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+}
+
+.table_data {
+  margin-bottom: 10px;
+  font-size: 16px;
+  background: lightgrey;
+  text-align: center;
+
 }

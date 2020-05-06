@@ -3,21 +3,21 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude</title>
+  <title>Bootstrap Data Visualizations</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" media="screen">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html" id="main_logo">
           <span style="font-size:25px">Latitude</span>
         </a>
       </div>
       
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+     <div class="navbar-header">
+      <ul class="navbar-nav ml-auto" id="other_link">
         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,31 +41,36 @@
     </div>
   </nav>
 
-<div class="container-fluid" style="padding: 50px">
-  <div class="row">
-      <div class="col-lg-6">
-          <div class="card">
-            <div class="card-body">
-              <h1 class="card-title">Comaprision: Latitude vs. X</h1>
-              <hr>
-              <h3 style="font-size: 12px">Click any plot to get an in-depth analysis.</h3>
-              <br>
-              <div class="box3">
-
-                <a href="max_temp.html"> <img src="Resources/Images/lat_vs_temp.png" alt="Max Temperature" class="img-fluid" height="200" width="300"></a>
+  <div class="container-fluid" style="padding: 50px">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h1 class="card-title">Comaprision: Latitude vs. X</h1>
+                <hr>
+                <h3 style="font-size: 12px">Click any plot to get an in-depth analysis.</h3>
+                <br>
+                <div class="box3">
                   
-                <a href="humidity.html"> <img src="Resources/Images/lat_vs_humidity.png" alt="Humidity" class="img-fluid" height="200" width="300"></a>
-                <br><br>
-
-                <a href="cloudiness.html"> <img src="Resources/Images/lat_vs_cloudiness.png" alt="Cloudiness" class="img-fluid" height="200" width="300"></a>
-                  
-                <a href="wind_speed.html"> <img src="Resources/Images/lat_vs_wind_speed.png" alt="Wind Speed" class="img-fluid" height="200" width="300"></a>
-                
+                    
+                    <a href="max_temp.html"> <img src="Resources/Images/lat_vs_temp.png" alt="Max Temperature" class="img-fluid" height="200" width="300"></a>
+                    
+                    
+                    <a href="humidity.html"> <img src="Resources/Images/lat_vs_humidity.png" alt="Humidity" class="img-fluid" height="200" width="300"></a>
+                     <br><br>
+                    
+                    <a href="humidity.html"> <img src="Resources/Images/lat_vs_cloudiness.png" alt="Cloudiness" class="img-fluid" height="200" width="300"></a>
+                    
+                    
+                    <a href="humidity.html"> <img src="Resources/Images/lat_vs_wind_speed.png" alt="Wind Speed" class="img-fluid" height="200" width="300"></a>
+                   
+                  </div>
+            
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
